@@ -2,11 +2,25 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
-  background-color: #fff;
-  color: #444;
 }
 
-img {
-  width: 100px;
-  height: auto;
+
+strong {
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: hsl(0deg 0% 80%);
+  padding: 15px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px;
 }
